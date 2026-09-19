@@ -4,9 +4,9 @@ title: BIBI DICE Privacy Policy
 
 # BIBI DICE 比比丟八 隱私政策 / Privacy Policy
 
-最後更新：2026-05-23
+最後更新：2026-09-19
 
-> 本文件用於 Steam 商店頁 / Demo 送審前的公開隱私政策說明，不構成法律意見。若未來實際資料收集範圍、第三方服務或 Steamworks 功能變更，本政策將同步更新。
+> 本文件說明《BIBI DICE 比比丟八》Steam Demo 與正式版目前的資料處理方式，不構成法律意見。若實際資料收集範圍、第三方服務或 Steamworks 功能變更，本政策將同步更新。
 
 ---
 
@@ -14,14 +14,14 @@ title: BIBI DICE Privacy Policy
 
 ### 1. 適用範圍
 
-本隱私政策適用於《BIBI DICE 比比丟八》的 Steam Demo 與未來正式版。
+本隱私政策適用於《BIBI DICE 比比丟八》的 Steam Demo 與 Steam 正式版。
 
 本遊戲由「雷爪獅」開發與發行。  
 聯絡信箱：leijoalion@gmail.com
 
-### 2. 目前 Demo 版本的資料處理
+### 2. 目前版本的資料處理
 
-目前 Steam Demo 版本不會主動將遊玩資料傳送到開發者伺服器，也不會要求玩家提供真實姓名、住址、政府證件、銀行資料、付款資料或 Steam 登入密碼。
+Steam Demo 與正式版目前都不會將遊玩資料傳送到雷爪獅營運的伺服器，也未使用第三方遊玩分析、廣告、排行榜或當機回報服務。遊戲不會要求玩家提供真實姓名、住址、政府證件、銀行資料、付款資料或 Steam 登入密碼。
 
 遊戲會在玩家本機裝置保存必要的遊戲資料，例如：
 
@@ -31,11 +31,13 @@ title: BIBI DICE Privacy Policy
 - 收集冊解鎖狀態
 - 歷史牌局與個人最佳紀錄
 
-這些資料目前儲存在玩家裝置的本機儲存空間中，例如瀏覽器 `localStorage` 或 Electron / Steam 桌面版的 `userData` 目錄。這些本機資料不會由目前 Demo 版本主動上傳給開發者。
+這些資料儲存在玩家裝置的本機儲存空間中，例如瀏覽器 `localStorage` 或 Electron / Steam 桌面版的 `userData` 目錄。這些本機資料不會上傳到雷爪獅營運的伺服器。
+
+Steam 正式版目前支援 Steam 成就與 Steam 雲端存檔。使用這些功能時，Valve / Steam 會依其政策處理與本遊戲直接相關的 Steam 帳號、成就及遊戲進度資料。Steam Demo 未啟用 Steam 成就或 Steam 雲端存檔，遊戲資料只保存在玩家裝置上。
 
 ### 3. 未來版本可能收集的遊玩資料
 
-正式版或後續更新可能會加入匿名或彙整形式的遊玩分析，用於評估更新方向、改善平衡、修正錯誤與了解玩家如何遊玩本遊戲。
+目前版本未啟用遊玩分析。正式版或後續更新若要加入匿名或彙整形式的遊玩分析，將在啟用前更新本政策，說明服務名稱、資料用途與保存方式。
 
 未來可能收集的資料類型包括：
 
@@ -55,44 +57,43 @@ title: BIBI DICE Privacy Policy
 - Steam 登入密碼
 - 非本遊戲所需的私人通訊內容
 
-若未來加入第三方分析、當機回報或雲端服務，本隱私政策會在啟用前更新，並補充服務名稱、資料用途與資料保存方式。
+下列項目只是未來可能評估的範圍，並非目前正在收集的資料。若未來加入第三方分析、當機回報或其他雲端服務，本隱私政策會在啟用前更新。
 
 ### 4. Steam 平台資料
 
 Steam 帳號、購買紀錄、付款、退款、Steam 雲端、成就、排行榜、遊戲擁有權驗證與其他 Steam 平台功能由 Valve / Steam 依其自身政策處理。
 
-本遊戲不會接觸玩家的付款卡號或 Steam 登入密碼。若未來使用 Steamworks 功能，本遊戲可能會依功能需要讀取與本遊戲直接相關的 Steam 資料，例如遊戲擁有權、成就、進度或排行榜資料。
+本遊戲不會接觸玩家的付款卡號或 Steam 登入密碼。正式版目前使用 Steam 成就與 Steam 雲端存檔，會依功能需要處理與本遊戲直接相關的成就及進度資料；本遊戲目前未使用 Steam 排行榜。
 
 Valve 的隱私政策可見：<https://store.steampowered.com/privacy_agreement>
 
 ### 5. 資料用途
 
-收集或保存資料的目的包括：
+目前保存或由平台處理資料的目的包括：
 
 - 提供遊戲存檔、設定、收集冊與進度功能
-- 改善遊戲平衡與關卡內容
-- 判斷未來更新方向
-- 修正錯誤、當機與效能問題
-- 維護 Steam 平台功能，例如成就、雲端存檔或排行榜
+- 維護 Steam 正式版的成就與雲端存檔功能
 - 回覆玩家支援請求
+
+若未來啟用遊玩分析或當機回報，改善平衡、規劃更新與修正錯誤等新增用途會在啟用前寫入本政策。
 
 ### 6. 資料保存與刪除
 
-目前 Demo 版本的遊戲進度主要保存在玩家自己的裝置上。玩家移除本機存檔、清除瀏覽器資料或刪除 Electron / Steam 桌面版的本機資料後，相關本機遊戲資料會從該裝置移除。
+Steam Demo 與正式版的遊戲進度都會保存在玩家自己的裝置上。玩家移除本機存檔、清除瀏覽器資料或刪除 Electron / Steam 桌面版的本機資料後，相關本機遊戲資料會從該裝置移除。
 
-未來若加入雲端或分析資料，匿名或彙整資料會保存至不再需要用於遊戲改善、統計、錯誤修正或營運目的為止，或依第三方服務供應商的保存規則處理。
+正式版啟用 Steam 雲端存檔時，雲端資料由 Valve 依其政策與使用者的 Steam 設定處理。玩家可透過 Steam 支援頁面的隱私儀表板管理與 Steam 帳號相關的資料。
 
-玩家若希望查詢或刪除與本遊戲相關的資料，可透過本政策列出的聯絡信箱聯絡開發者。
+玩家若希望查詢本遊戲自身控制範圍內的資料，可透過本政策列出的聯絡信箱聯絡開發者；Steam 帳號與平台資料的存取或刪除請使用 Steam 提供的帳號與隱私工具。
 
 ### 7. 第三方服務
 
-本遊戲透過 Steam 發行，Steam 平台相關資料由 Valve 處理。
+本遊戲透過 Steam 發行，Steam 帳號、成就、雲端存檔、購買與其他平台資料由 Valve 處理。
 
 目前已知的第三方服務：
 
 - Steam / Steamworks / Valve
 
-若未來加入分析、當機回報、雲端或其他第三方服務，本政策會更新並列出相關服務。
+若未來加入分析、當機回報或其他第三方服務，本政策會在啟用前更新並列出相關服務。
 
 ### 8. 兒童隱私
 
@@ -108,14 +109,14 @@ Valve 的隱私政策可見：<https://store.steampowered.com/privacy_agreement>
 
 ### 1. Scope
 
-This Privacy Policy applies to the Steam Demo and future full release of *BIBI DICE*.
+This Privacy Policy applies to the Steam Demo and the full Steam release of *BIBI DICE*.
 
-The game is developed and published by Leijoa.  
+The game is developed and published by Leijoalion.
 Contact email: leijoalion@gmail.com
 
-### 2. Data handling in the current Demo
+### 2. Current data handling
 
-The current Steam Demo does not actively send gameplay data to a developer-operated server, and it does not ask players to provide real names, addresses, government IDs, banking information, payment information, or Steam login passwords.
+The Steam Demo and full release do not send gameplay data to a server operated by Leijoalion. The game currently does not use third-party gameplay analytics, advertising, leaderboards, or crash-reporting services. It does not ask players to provide real names, addresses, government IDs, banking information, payment information, or Steam login passwords.
 
 The game stores necessary gameplay data locally on the player's device, such as:
 
@@ -125,11 +126,13 @@ The game stores necessary gameplay data locally on the player's device, such as:
 - Collection unlocks
 - Run history and personal best records
 
-This data is currently stored in local device storage, such as browser `localStorage` or the Electron / Steam desktop version's `userData` directory. The current Demo does not actively upload this local data to the developer.
+This data is stored locally on the player's device, such as in browser `localStorage` or the Electron / Steam desktop version's `userData` directory. This local data is not uploaded to a server operated by Leijoalion.
+
+The full Steam release currently supports Steam Achievements and Steam Cloud saves. When these features are used, Valve / Steam processes Steam account, achievement, and game-progress data directly related to this game under Valve's policies. The Steam Demo does not use Steam Achievements or Steam Cloud; its game data is stored only on the player's device.
 
 ### 3. Gameplay data that may be collected in future versions
 
-The full release or future updates may add anonymous or aggregated gameplay analytics to help evaluate update direction, improve balance, fix bugs, and understand how players play the game.
+Gameplay analytics are not enabled in the current versions. If a future update adds anonymous or aggregated gameplay analytics, this policy will be updated before activation to identify the service, purpose, and retention approach.
 
 Future data collection may include:
 
@@ -149,44 +152,43 @@ The game will not intentionally collect the following for gameplay analytics:
 - Steam login passwords
 - Private communications unrelated to the game
 
-If third-party analytics, crash reporting, or cloud services are added in the future, this Privacy Policy will be updated before those services are enabled, including the service names, purposes, and data retention approach.
+The items above describe only a possible future scope and are not data currently collected by the game. If third-party analytics, crash reporting, or other cloud services are added, this Privacy Policy will be updated before they are enabled.
 
 ### 4. Steam platform data
 
 Steam accounts, purchase history, payments, refunds, Steam Cloud, achievements, leaderboards, game ownership verification, and other Steam platform features are handled by Valve / Steam under Valve's own policies.
 
-This game does not access payment card numbers or Steam login passwords. If Steamworks features are implemented in the future, the game may access Steam data directly related to this game, such as ownership, achievements, progress, or leaderboard data.
+This game does not access payment card numbers or Steam login passwords. The full release currently uses Steam Achievements and Steam Cloud saves and processes achievement and progress data directly related to this game as needed for those features. The game does not currently use Steam leaderboards.
 
 Valve's Privacy Policy is available here: <https://store.steampowered.com/privacy_agreement>
 
 ### 5. Purposes
 
-Data is stored or collected for the following purposes:
+Data currently stored or processed by the platform is used for the following purposes:
 
 - Providing save data, settings, collection, and progress features
-- Improving game balance and stage content
-- Evaluating future update direction
-- Fixing bugs, crashes, and performance issues
-- Supporting Steam platform features, such as achievements, cloud saves, or leaderboards
+- Supporting Steam Achievements and Steam Cloud saves in the full release
 - Responding to player support requests
+
+If gameplay analytics or crash reporting is enabled in the future, any additional purposes such as balance improvement, update planning, or error diagnosis will be added to this policy before activation.
 
 ### 6. Retention and deletion
 
-In the current Demo, gameplay progress is mainly stored on the player's own device. If the player removes local save data, clears browser data, or deletes the Electron / Steam desktop version's local data, the related local game data will be removed from that device.
+Both the Steam Demo and full release store gameplay progress on the player's own device. If the player removes local save data, clears browser data, or deletes the Electron / Steam desktop version's local data, the related local game data will be removed from that device.
 
-If cloud or analytics data is added in the future, anonymous or aggregated data will be retained only as long as needed for game improvement, statistics, bug fixing, or operational purposes, or according to the retention rules of the relevant third-party service provider.
+When Steam Cloud saves are enabled for the full release, cloud data is handled by Valve under its policies and the user's Steam settings. Players can use the Privacy Dashboard on the Steam Support website to manage data associated with their Steam Account.
 
-Players may contact the developer at the email address listed in this policy to ask about or request deletion of data related to this game.
+Players may contact the developer at the email address listed in this policy regarding data controlled by the game itself. Access or deletion requests for Steam Account and platform data should be made through Steam's account and privacy tools.
 
 ### 7. Third-party services
 
-This game is distributed through Steam, and Steam platform data is handled by Valve.
+This game is distributed through Steam. Steam account, achievement, cloud-save, purchase, and other platform data is handled by Valve.
 
-Known third-party services in this draft:
+Current third-party platform service:
 
 - Steam / Steamworks / Valve
 
-If analytics, crash reporting, cloud services, or other third-party services are added in the future, this policy will be updated to list those services.
+If analytics, crash reporting, or other third-party services are added in the future, this policy will be updated before activation to identify those services.
 
 ### 8. Children's privacy
 
