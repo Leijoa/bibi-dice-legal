@@ -8,6 +8,8 @@ title: BIBI DICE Privacy Policy
 
 > 本文件說明《BIBI DICE 比比丟八》Steam Demo 與正式版目前的資料處理方式，不構成法律意見。若實際資料收集範圍、第三方服務或 Steamworks 功能變更，本政策將同步更新。
 
+手機版（Android / iOS）請見：[手機版隱私政策 / Mobile Privacy Policy](mobile/)
+
 ---
 
 ## 繁體中文
