@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- Four-language LQA completed 2026-10-05; publication prepared 2026-10-06. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -20,38 +21,34 @@
 <body>
 <main>
 <h1>BIBI DICE</h1>
-<p class="meta">Mobile app privacy policy / 手機版隱私政策 / 手机版隐私政策 / モバイル版プライバシーポリシー — Last updated / 最後更新 / 最后更新 / 最終更新：2026-10-03</p>
+<p class="meta">Mobile app privacy policy / 手機版隱私政策 / 手机版隐私政策 / モバイル版プライバシーポリシー — Last updated / 最後更新 / 最后更新 / 最終更新：2026-10-05</p>
 <nav>
   <a href="#en">English</a><a href="#zh-tw">繁體中文</a><a href="#zh-cn">简体中文</a><a href="#ja">日本語</a>
 </nav>
 
 <section class="lang" id="en" lang="en">
 <h1>Privacy Policy (English)</h1>
-<p>This policy applies to the Android and iOS versions of "BIBI DICE" (the "App"), developed by Leijoalion (雷爪獅).</p>
+<p>This policy applies to the Android release of "BIBI DICE" (the "App"), developed by Leijoalion (雷爪獅). An iOS release is planned for a later date; this policy will be updated before that version is released.</p>
 <h2>What the App does not do</h2>
 <ul>
   <li>The App contains no advertising and does not use any advertising identifier. It does not track you across other apps or websites.</li>
   <li>The App does not collect your location, contacts, photos, microphone, or camera data.</li>
+  <li>The initial release does not offer an email account or cloud progress sync, and does not upload your game save to Firebase.</li>
 </ul>
 <h2>Data stored on your device</h2>
-<p>Your current run, local save data, play history, collection data, settings (such as language and volume), and a random device identifier are stored on your device.</p>
-<p>If you enable optional cloud sync, some meta progress, collection data, record statistics, and the device identifier are also stored in Firestore as described below. Your current run and device settings are never uploaded.</p>
-<p>Uninstalling the App removes locally stored App data from the device.</p>
-<h2>Optional account and cloud sync</h2>
-<p>You can play, purchase the full game, and restore purchases without signing in.</p>
-<p>If you choose to create an account to sync progress between devices, Firebase Authentication (Google) processes your email address, sign-in status, email-verification status, and Firebase user ID.</p>
-<p>Firestore (Google) stores your synced meta progress, including Soul totals, upgrade levels, collection data, record statistics, and a random per-device identifier used to merge progress without duplication. Your current run and device settings are not uploaded.</p>
+<p>Your current run, local save data, play history, collection data, settings (such as language and volume), a random device identifier, and local unlock status are stored on your device. The App does not upload this game data to Firebase.</p>
+<p>On Android, operating-system backup or device-transfer features may copy local App data according to your device and Google account settings. Removing the App normally removes its data from that device, but a backup may remain with the operating-system provider and may be restored later.</p>
 <h2>Purchases</h2>
 <p>The App is free to download. A one-time purchase unlocks the full game.</p>
-<p>Payments are processed by Google Play or the Apple App Store; the App does not receive your card details. RevenueCat processes purchase and restore requests and entitlement status.</p>
-<p>If you are not signed in, RevenueCat uses an anonymous identifier. If you later sign in, the purchase entitlement may be linked to your account. The App also stores the "full game unlocked" status locally so that the unlocked content can remain available offline.</p>
+<p>Payments for the Android release are processed by Google Play; the App does not receive your payment-card details. RevenueCat is configured when the App starts and uses an anonymous App User ID. It may process purchase, restore, refund, entitlement, and purchase-statistics information, together with technical data such as device type, operating-system version, App version, and store information. These purchase statistics support purchase verification, entitlement delivery, and RevenueCat's purchase dashboard; the App does not include a separate gameplay analytics SDK.</p>
+<p>The App also stores the "full game unlocked" status locally so that unlocked content can remain available offline. Restoring a purchase restores the purchase entitlement, not your game progress. A purchase made through one app store is not guaranteed to transfer to another store, including a future iOS release.</p>
 <h2>Sharing and international processing</h2>
-<p>Data is shared only with service providers needed for the features described above: Google (Firebase and Google Play), RevenueCat, and Apple.</p>
+<p>Purchase-related data is provided to Google Play and RevenueCat to deliver the purchase features described above. Apple may become a service provider when an iOS version is released.</p>
+<p>If you use operating-system backup or device transfer, the relevant operating-system service provider may also process App data.</p>
 <p>These providers may process data outside your country or region under their own privacy terms. We do not sell your data.</p>
 <h2>Retention and deletion</h2>
-<!-- TODO（上架前）：帳號刪除網頁部署後，在「刪除」段落補上該網址；目前只列 App 內與 Email 兩種方式，避免死連結。 -->
-<p>You can permanently delete your account and cloud data inside the App under Settings, or by emailing <a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a>.</p>
-<p>Uninstalling the App removes locally stored App data. Purchase records may continue to be retained by Apple, Google, and RevenueCat according to their policies and applicable requirements.</p>
+<p>You can remove local App data using Android's storage controls or by uninstalling the App, subject to the operating-system backup and transfer behavior described above.</p>
+<p>You may email <a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a> to submit a request regarding access to or deletion of data, where applicable. Google Play and RevenueCat may retain transaction records for legal, accounting, fraud-prevention, or policy-related reasons.</p>
 <h2>Children</h2>
 <p>The App is not directed at children, and we do not knowingly collect personal data from children.</p>
 <h2>Contact</h2>
@@ -60,64 +57,56 @@
 
 <section class="lang" id="zh-tw" lang="zh-Hant-TW">
 <h1>隱私政策（繁體中文）</h1>
-<p>本政策適用於由雷爪獅（Leijoalion）開發的《BIBI DICE 比比丟八》Android 與 iOS 版本（以下稱「本 App」）。</p>
+<p>本政策適用於由雷爪獅（Leijoalion）開發的《BIBI DICE 比比丟八》Android 首發版本（以下稱「本 App」）。iOS 版本預計於後續推出，並會在發布前更新本政策。</p>
 <h2>本 App 不做的事</h2>
 <ul>
   <li>本 App 不含廣告，不使用廣告識別碼，也不會跨 App 或網站追蹤你。</li>
   <li>本 App 不蒐集你的位置、通訊錄、相片、麥克風或相機資料。</li>
+  <li>首發版本不提供 Email 帳號或雲端進度同步，也不會將遊戲存檔上傳至 Firebase。</li>
 </ul>
 <h2>儲存在裝置上的資料</h2>
-<p>目前進行中的牌局、本機存檔、遊玩紀錄、收集冊資料、設定（例如語言與音量）及一組隨機裝置識別碼會儲存在你的裝置上。</p>
-<p>若你選擇啟用雲端同步，部分局外進度、收集冊、紀錄統計與裝置識別碼也會依下節說明儲存在 Firestore。目前進行中的牌局與裝置設定不會上傳。</p>
-<p>移除 App 會清除裝置上的本機 App 資料。</p>
-<h2>選用的帳號與雲端同步</h2>
-<p>不登入也能遊玩、購買完整版與還原購買。</p>
-<p>若你選擇建立帳號，以便在不同裝置間同步進度，Firebase Authentication（Google）會處理你的 Email、登入狀態、Email 驗證狀態及 Firebase 使用者 ID。</p>
-<p>Firestore（Google）會保存同步的局外進度，包括靈魂總量、奉獻等級、收集冊、紀錄統計，以及用來避免重複合併進度的隨機裝置識別碼。目前進行中的牌局與裝置設定不會上傳。</p>
+<p>目前進行中的牌局、本機存檔、遊玩紀錄、收集冊資料、設定（例如語言與音量）、一組隨機裝置識別碼及本機解鎖狀態會儲存在你的裝置上。本 App 不會將這些遊戲資料上傳至 Firebase。</p>
+<p>在 Android 上，作業系統的備份或裝置移轉功能可能會依你的裝置與 Google 帳戶設定複製本機 App 資料。移除 App 通常會清除該裝置上的資料，但作業系統服務供應商可能仍保留備份，日後也可能將其還原。</p>
 <h2>購買</h2>
 <p>本 App 免費下載，可透過一次性購買永久解鎖完整版。</p>
-<p>付款由 Google Play 或 Apple App Store 處理，本 App 不會取得你的卡片資料。RevenueCat 負責處理購買、還原購買與權益狀態。</p>
-<p>未登入時，RevenueCat 會使用匿名識別碼；之後若登入，購買權益可能會連結至你的帳號。本 App 也會在裝置上保存「已解鎖完整版」的狀態，讓已解鎖內容在離線時仍可使用。</p>
+<p>Android 首發版本的付款由 Google Play 處理，本 App 不會取得你的付款卡片資料。App 啟動時即會初始化 RevenueCat，並使用匿名 App User ID；其可能處理購買、還原購買、退款、權益狀態與購買統計，以及裝置類型、作業系統版本、App 版本與商店資訊等技術資料。這些購買統計用於購買驗證、提供權益及 RevenueCat 購買儀表板；本 App 未另行整合遊玩行為分析 SDK。</p>
+<p>本 App 也會在裝置上保存「已解鎖完整版」狀態，讓已解鎖內容在離線時仍可使用。還原購買只會還原購買權益，不會還原遊戲進度；不同商店之間（包括未來的 iOS 版本）不保證能轉移購買。</p>
 <h2>分享與跨境處理</h2>
-<p>資料只會提供給執行上述功能所需的服務供應商：Google（Firebase、Google Play）、RevenueCat 與 Apple。</p>
+<p>購買相關資料會提供給執行上述購買功能所需的 Google Play 與 RevenueCat。iOS 版本推出後，Apple 可能成為服務供應商。</p>
+<p>若你使用作業系統備份或裝置移轉功能，相關作業系統服務供應商也可能處理 App 資料。</p>
 <p>這些服務可能在你所在國家或地區以外處理資料，並受各自的隱私條款約束。我們不會出售你的資料。</p>
 <h2>保留與刪除</h2>
-<!-- TODO（上架前）：帳號刪除網頁部署後，在「刪除」段落補上該網址；目前只列 App 內與 Email 兩種方式，避免死連結。 -->
-<p>你可以在 App 內的「設定」永久刪除帳號與雲端資料，也可以寄信至 <a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a> 申請刪除。</p>
-<p>移除 App 會清除裝置上的本機 App 資料。購買紀錄則可能由 Apple、Google 與 RevenueCat 依各自政策及適用要求繼續保存。</p>
+<p>你可以使用 Android 的儲存空間管理功能或移除 App 來清除本機 App 資料，但仍受上述作業系統備份與移轉機制影響。</p>
+<p>如需提出資料查詢或刪除要求，可寄信至 <a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a>。Google Play 與 RevenueCat 可能因法律、會計、詐欺防範或各自政策需求繼續保留交易紀錄。</p>
 <h2>兒童</h2>
-<p>本 App 並非以兒童為主要對象，我們也不會在明知的情況下蒐集兒童的個人資料。</p>
+<p>本 App 並非以兒童為對象，我們也不會在明知的情況下蒐集兒童的個人資料。</p>
 <h2>聯絡方式</h2>
 <p>開發者：雷爪獅（Leijoalion） — <a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a></p>
 </section>
 
 <section class="lang" id="zh-cn" lang="zh-Hans-CN">
 <h1>隐私政策（简体中文）</h1>
-<p>本政策适用于由雷爪狮（Leijoalion）开发的《BIBI DICE 比比丢八》Android 与 iOS 版本（以下称“本 App”）。</p>
+<p>本政策适用于由雷爪狮（Leijoalion）开发的《BIBI DICE 比比丢八》Android 首发版本（以下称“本 App”）。iOS 版本计划于后续推出，并会在发布前更新本政策。</p>
 <h2>本 App 不做的事</h2>
 <ul>
   <li>本 App 不含广告，不使用广告标识符，也不会跨 App 或网站追踪你。</li>
   <li>本 App 不收集你的位置、通讯录、照片、麦克风或相机数据。</li>
+  <li>首发版本不提供 Email 账号或云端进度同步，也不会将游戏存档上传至 Firebase。</li>
 </ul>
 <h2>保存在设备上的数据</h2>
-<p>正在进行的游戏、本地存档、游玩记录、收集册数据、设置（例如语言和音量）以及一组随机设备标识符会保存在你的设备上。</p>
-<p>如果你选择启用云端同步，部分局外进度、收集册、记录统计和设备标识符也会按照下文说明保存在 Firestore。正在进行的游戏与设备设置不会上传。</p>
-<p>卸载 App 会清除设备上的本地 App 数据。</p>
-<h2>可选的账号与云端同步</h2>
-<p>不登录也能游玩、购买完整版与恢复购买。</p>
-<p>如果你选择创建账号，以便在不同设备间同步进度，Firebase Authentication（Google）会处理你的 Email、登录状态、Email 验证状态及 Firebase 用户 ID。</p>
-<p>Firestore（Google）会保存同步的局外进度，包括灵魂总量、奉献等级、收集册、记录统计，以及用于避免重复合并进度的随机设备标识符。正在进行的游戏与设备设置不会上传。</p>
+<p>正在进行的游戏、本地存档、游玩记录、收集册数据、设置（例如语言和音量）、一组随机设备标识符以及本地解锁状态会保存在你的设备上。本 App 不会将这些游戏数据上传至 Firebase。</p>
+<p>在 Android 上，操作系统的备份或设备转移功能可能会根据你的设备与 Google 账号设置复制本地 App 数据。卸载 App 通常会清除该设备上的数据，但操作系统服务提供商可能仍保留备份，日后也可能将其恢复。</p>
 <h2>购买</h2>
 <p>本 App 免费下载，可通过一次性购买永久解锁完整版。</p>
-<p>付款由 Google Play 或 Apple App Store 处理，本 App 不会获取你的银行卡信息。RevenueCat 负责处理购买、恢复购买与权益状态。</p>
-<p>未登录时，RevenueCat 会使用匿名标识符；之后如果登录，购买权益可能会关联到你的账号。本 App 也会在设备上保存“已解锁完整版”的状态，让已解锁内容在离线时仍可使用。</p>
+<p>Android 首发版本的付款由 Google Play 处理，本 App 不会获取你的支付卡信息。RevenueCat 会在 App 启动时完成配置，并使用匿名 App User ID；其可能处理购买、恢复购买、退款、权益状态与购买统计，以及设备类型、操作系统版本、App 版本与商店信息等技术数据。这些购买统计用于购买验证、提供权益及 RevenueCat 购买仪表板；本 App 未另外集成游戏行为分析 SDK。</p>
+<p>本 App 也会在设备上保存“已解锁完整版”状态，让已解锁内容在离线时仍可使用。恢复购买只会恢复购买权益，不会恢复游戏进度；不同商店之间（包括未来的 iOS 版本）不保证能够转移购买。</p>
 <h2>共享与跨境处理</h2>
-<p>数据仅会提供给实现上述功能所需的服务提供商：Google（Firebase、Google Play）、RevenueCat 与 Apple。</p>
+<p>购买相关数据会提供给实现上述购买功能所需的 Google Play 与 RevenueCat。iOS 版本推出后，Apple 可能成为服务提供商。</p>
+<p>如果你使用操作系统备份或设备转移功能，相关操作系统服务提供商也可能处理 App 数据。</p>
 <p>这些服务可能在你所在国家或地区以外处理数据，并受各自隐私条款约束。我们不会出售你的数据。</p>
 <h2>保留与删除</h2>
-<!-- TODO（上架前）：帳號刪除網頁部署後，在「刪除」段落補上該網址；目前只列 App 內與 Email 兩種方式，避免死連結。 -->
-<p>你可以在 App 内的“设置”中永久删除账号与云端数据，也可以发送邮件至 <a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a> 申请删除。</p>
-<p>卸载 App 会清除设备上的本地 App 数据。购买记录则可能由 Apple、Google 与 RevenueCat 根据各自政策及适用要求继续保存。</p>
+<p>你可以使用 Android 的存储空间管理功能或卸载 App 来清除本地 App 数据，但仍受上述操作系统备份与设备转移机制影响。</p>
+<p>如需提出数据查询或删除请求，可以发送邮件至 <a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a>。Google Play 与 RevenueCat 可能因法律、会计、欺诈防范或各自政策要求继续保留交易记录。</p>
 <h2>儿童</h2>
 <p>本 App 并非面向儿童，我们也不会在明知的情况下收集儿童的个人信息。</p>
 <h2>联系方式</h2>
@@ -126,33 +115,29 @@
 
 <section class="lang" id="ja" lang="ja">
 <h1>プライバシーポリシー（日本語）</h1>
-<p>本ポリシーは、雷爪獅（Leijoalion）が開発する『BIBI DICE』のAndroid版およびiOS版（以下「本アプリ」）に適用されます。</p>
+<p>本ポリシーは、雷爪獅（Leijoalion）が開発する『BIBI DICE』のAndroid初回リリース（以下「本アプリ」）に適用されます。iOS版は後日リリース予定であり、公開前に本ポリシーを更新します。</p>
 <h2>本アプリが行わないこと</h2>
 <ul>
   <li>本アプリには広告がなく、広告識別子も使用しません。他のアプリやWebサイトをまたいだトラッキングも行いません。</li>
   <li>位置情報、連絡先、写真、マイク、カメラのデータは収集しません。</li>
+  <li>初回リリースではメールアドレスを使ったゲーム用アカウントや、クラウドによる進行状況の同期機能を提供せず、ゲームのセーブデータをFirebaseにアップロードしません。</li>
 </ul>
 <h2>端末内に保存されるデータ</h2>
-<p>進行中のプレイデータ、ローカルのセーブデータ、プレイ履歴、コレクションデータ、設定（言語・音量など）、ランダムな端末識別子は端末内に保存されます。</p>
-<p>任意のクラウド同期を利用した場合、一部のゲーム外進行データ、コレクション、記録統計、端末識別子は、下記のとおりFirestoreにも保存されます。進行中のプレイデータと端末設定はアップロードされません。</p>
-<p>本アプリをアンインストールすると、端末内に保存された本アプリのローカルデータは削除されます。</p>
-<h2>任意のアカウントとクラウド同期</h2>
-<p>ログインしなくても、プレイ、製品版の購入、購入の復元ができます。</p>
-<p>端末間で進行状況を同期するためにアカウントを作成した場合、Firebase Authentication（Google）がメールアドレス、ログイン状態、メール認証状態、FirebaseユーザーIDを処理します。</p>
-<p>Firestore（Google）には、同期対象のゲーム外進行データとして、魂の合計、捧げ物のレベル、コレクション、記録統計、重複なく進行状況を統合するためのランダムな端末識別子が保存されます。進行中のプレイデータと端末設定はアップロードされません。</p>
+<p>進行中のプレイデータ、ローカルのセーブデータ、プレイ履歴、コレクションデータ、設定（言語・音量など）、ランダムな端末識別子、ローカルの解放状態は端末内に保存されます。本アプリがこれらのゲームデータをFirebaseへアップロードすることはありません。</p>
+<p>Androidでは、OSのバックアップまたは端末移行機能により、端末やGoogleアカウントの設定に応じてローカルのアプリデータがコピーされる場合があります。アンインストールすると通常はその端末上のデータが削除されますが、OSのサービス提供者がバックアップを保持し、後から復元する場合があります。</p>
 <h2>購入について</h2>
 <p>本アプリは無料でダウンロードでき、1回きりの購入で製品版を永続的に解放できます。</p>
-<p>決済はGoogle PlayまたはApple App Storeが処理し、本アプリがカード情報を受け取ることはありません。購入、購入の復元、利用権限の状態はRevenueCatが処理します。</p>
-<p>ログインしていない場合、RevenueCatは匿名の識別子を使用します。後からログインした場合、購入権限がアカウントに紐づくことがあります。また、オフラインでも解放済みのコンテンツを利用できるよう、「製品版解放済み」の状態を端末内にも保存します。</p>
+<p>Android初回リリースの決済はGoogle Playが処理し、本アプリが支払いカード情報を受け取ることはありません。本アプリの起動時にRevenueCatが初期化され、匿名のApp User IDが使用されます。購入、購入の復元、返金、利用権限の状態、購入統計に加え、端末の種類、OSのバージョン、アプリのバージョン、ストア情報などの技術データを処理する場合があります。購入統計は、購入の検証、利用権限の提供、およびRevenueCatの購入ダッシュボードに使用されます。本アプリには、ゲームプレイ行動を分析するための別のSDKは組み込まれていません。</p>
+<p>オフラインでも解放済みのコンテンツを利用できるよう、「製品版解放済み」の状態は端末内にも保存されます。購入の復元で復元されるのは購入権限であり、ゲームの進行状況ではありません。将来のiOS版を含め、異なるストア間で購入が引き継がれることは保証されません。</p>
 <h2>第三者への提供と国外での処理</h2>
-<p>データは、上記の機能に必要なサービス提供者であるGoogle（Firebase、Google Play）、RevenueCat、Appleにのみ提供されます。</p>
+<p>購入関連のデータは、上記の購入機能に必要なGoogle PlayおよびRevenueCatに提供されます。iOS版の公開後は、Appleがサービス提供者となる場合があります。</p>
+<p>OSのバックアップまたは端末移行機能を利用した場合、関連するOSのサービス提供者もアプリデータを処理することがあります。</p>
 <p>これらのサービスは、お住まいの国または地域以外でデータを処理する場合があり、それぞれのプライバシーポリシーが適用されます。データを販売することはありません。</p>
 <h2>保存と削除</h2>
-<!-- TODO（上架前）：帳號刪除網頁部署後，在「刪除」段落補上該網址；目前只列 App 內與 Email 兩種方式，避免死連結。 -->
-<p>アプリ内の「設定」から、またはメール（<a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a>）でのご連絡により、アカウントとクラウドデータを完全に削除できます。</p>
-<p>本アプリをアンインストールすると、端末内のローカルデータは削除されます。購入履歴については、Apple、Google、RevenueCatがそれぞれのポリシーや適用される要件に基づいて保持する場合があります。</p>
+<p>Androidのストレージ管理機能または本アプリのアンインストールによりローカルのアプリデータを削除できますが、上記のOSによるバックアップおよび端末移行の仕組みが適用されます。</p>
+<p>データの照会または削除に関するご依頼は、<a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a>までご連絡ください。Google PlayおよびRevenueCatは、法令、会計、不正防止、それぞれのポリシーに基づき、取引記録を保持する場合があります。</p>
 <h2>お子様について</h2>
-<p>本アプリは子ども向けに提供しているものではなく、子どもの個人情報を認識した上で収集することはありません。</p>
+<p>本アプリは子ども向けに提供しているものではなく、子どもの個人情報であることを認識しながら収集することはありません。</p>
 <h2>お問い合わせ</h2>
 <p>開発者：雷爪獅（Leijoalion） — <a href="mailto:leijoalion@gmail.com">leijoalion@gmail.com</a></p>
 </section>
